@@ -1,0 +1,88 @@
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-text-color:#2196F3;
+    --black-background-text-color:#FFFFFF;
+    --logo-text-color:#000000;    
+    --primary-background: rgba(0, 0, 0, 0,25);
+    --secondary-background:#ECECEC;
+    --black-background:#2F303A;
+    --blue-background:#2196F3;
+}
+
+body {
+    background-color: var(--primary-background);
+    color: var(--primary-text-color);
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    color: var(--logo-text-color);
+}
+
+li{
+    list-style: none;
+}
+/* навигация шапки */
+.nav a{
+    color: var(--primary-text-color);    
+}
+.nav a :hover, 
+.nav a:focus{
+    color: var(--accent-text-color);
+}
+.contacts a{
+    color: var(--secondary-text-color);
+    }
+    .contacts a:hover,
+    .contacts a:focus{
+        color: var(--accent-text-color);
+    }
+    /* section hat */
+    .section-hat{
+        color: var(--black-background-text-color);
+    }
+    .button-primary{
+        color: var(--black-background-text-color);
+        background-color: var(--blue-background);
+    }
+    .button-primary :hover,
+    .button-primary :focus{
+        color: var(--blue-background);
+        background-color: var(--black-background-text-color);
+    }
+
+    .button-secondary{
+        color: var(--blue-background);
+        background-color: var(--black-background-text-color);
+
+    }
+
+    .section-title {
+        color: var(--primary-text-color);
+    }
+
+    /* current page */    
+    .nav .link-current{
+        color: var(--logo-text-color);
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* цвет основного текста #212121 */
+/* цвет текста вторичный основного #757575 */
+/* цвет акцента текста #2196F3 */
+/* цвет текста на темном фоне #FFFFFF */
+
+/* цвет фона основной темный #2F303A */
+/* цвет фона основной rgba(0, 0, 0, 0,25) */
+/* цвет фона вторичный #ECECEC */
