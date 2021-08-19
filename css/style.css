@@ -210,7 +210,6 @@ img{
     color: var(--primary-text-color);
     margin-top: 94px;
     margin-bottom: 10px;
-   
 }
 
 .section-pec-par {
@@ -262,8 +261,7 @@ img{
     font-size: 16px;
     line-height: 1.17;
     color: var(--secondary-text-color);
-    text-align: center;
-    margin-bottom: 124px;
+    text-align: center;   
 }
 
 .section-team{
@@ -292,7 +290,8 @@ img{
 /* ==============================footer=============================================== */
 .footer {       
     background-color: var(--black-background);
-    color: var(--black-background-text-color);          
+    color: var(--black-background-text-color);    
+    width: 1600px;          
 }
 
 .footer-text {
@@ -326,12 +325,6 @@ img{
 }
 
 
-.logo-link-footer
-
-
-
-
-
 /* =======================portfolio-main================================================================ */
 .visually-hidden { 
     position: absolute;
@@ -349,8 +342,7 @@ img{
     
 .portfolio {
     width: 1170px;
-    height: 1360px;
-    margin: 94px 215px;
+    height: 1360px;   
 }
 
 .portfolio-btn {
@@ -398,8 +390,8 @@ img{
 .our-projects-btn-list{
     display: flex;
     justify-content: center;    
-    margin-top: 94px;
-    margin-bottom: 34px;       
+    margin-top: 88px;
+    margin-bottom: 50px;       
 
 }
 .our-projects-btn-list>:not(:last-child){
@@ -426,8 +418,6 @@ img{
     margin-right: 30px;
     margin-bottom: 30px;
 }
-
-   
 
     
     
