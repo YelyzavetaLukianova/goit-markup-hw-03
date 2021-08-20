@@ -54,28 +54,20 @@ img{
     display: block;
 }
 
-
-
 /* ================================header============================================= */
 .container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0px auto 0px;
-    background-color: rgb(220, 248, 248);
+    margin: 0px auto 0px;   
 }
-
-.header-conainer{
-    display: flex;
-    align-items: center;
-}
-
-.header{
+.header-container{
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
+    border-bottom: 1px  #ECECEC;
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -92,12 +84,15 @@ img{
     justify-content: space-between;
 }
 .logo-link {
+    display: block;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.19;
     font-weight: 700;
     color: var(--logo-text-color);
     margin-right: 94px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .span-logo {    
@@ -150,25 +145,26 @@ img{
 
 
 /* =======================================hero============================================ */
-.hero {   
-    width: 1600px;
-    height: 608px;
+.hero{
     background-color: var(--black-background);
-}
+    padding-bottom: 94px;   
 
+}
 .section-hero {
     font-family: Roboto;    
     font-size: 44px;
     font-weight: 900;    
     line-height: 1.36;
     color: var(--black-background-text-color);       
-    padding: 200px 452px 30px;  
-    width: 582px; 
+    max-width: 696px;    
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;  
+    margin: 0px auto; 
+    margin-bottom: 30px;
 }
 
 .hero-btn {
+    display: block;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;    
@@ -180,8 +176,7 @@ img{
     height: 50px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-left: 700px;
-    margin-right: auto;
+    margin: 0px auto;
 
 }
 
@@ -195,13 +190,23 @@ img{
 }
 
 /* ========================peculiarities====================================== */
+.peculiarities-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-pec{
-    display: flex;
-    justify-content: space-between;    
+    display: flex;      
 }
 
-.section-pec > .section-pec-header{
+/* .section-pec > .section-pec-header{
     width: 270px;
+} */
+.section-pec-list{
+    width: 270px;
+}
+
+.section-pec-list:not(:last-child){
+    margin-right: 30px;
 }
 .section-pec-header {
     font-weight: 700;
@@ -216,8 +221,7 @@ img{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color:var(--secondary-text-color);
-    width: 258px;
+    color:var(--secondary-text-color);    
     margin-bottom: 94px;
 }
 
@@ -234,26 +238,38 @@ img{
     color: var(--primary-text-color);
 }
 /* ============================we-do=============================================== */
-.we-do-list{
-    display: flex;
-    justify-content: space-between;
+
+.we-do-section{
+    padding-bottom: 94px;
 }
-.we-do-title{
-    margin-bottom: 50px;
-    text-align: center;
+
+.we-do-list{
+    display: flex;      
+}
+
+.we-do-list:not(:last-child){
+    margin-right: 30px;
 }
 
 .we-do-list-item{
-    margin-bottom: 94px;
+    width: 370px;
 }
+
+.we-do-title{
+    margin-bottom: 50px;
+    text-align: center;}
+
+
 /* ===========================our-team============================================= */
+.our-team-section{
+    padding-top: 94px;
+}
 .section-title-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     color: var(--primary-text-color);
-    text-align: center;
-    margin-top: 30px;
+    text-align: center;    
     margin-bottom: 10px;
 }
 .section-par-list {
@@ -263,23 +279,30 @@ img{
     color: var(--secondary-text-color);
     text-align: center;   
 }
-
-.section-team{
+/* =====================================================our-team=============================================================== */
+.our-team-section{
+    padding-bottom: 90px;
     background-color: #F5F4FA;
 }
+
 .our-team-title{
     margin-bottom: 50px;
-    padding-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;   
     text-align: center;
+}
+
+.our-team-subtitle{
+    padding: 30px auto;
 }
 
 .our-team-list{
     display: flex;
-    justify-content: space-between;
 }
-.team-card{
+
+.our-team-list-item{
     width: 270px;
+}
+.team-card{    
     height: 368px;
     margin-bottom: 94px;
     background-color: #FFFFFF;
@@ -288,10 +311,26 @@ img{
                 0px 2px 1px 0px  rgba(0, 0, 0, 0.20);
 }
 /* ==============================footer=============================================== */
-.footer {       
-    background-color: var(--black-background);
-    color: var(--black-background-text-color);    
-    width: 1600px;          
+.footer-section{
+    background-color:var(--black-background);
+    color: var(--black-background-text-color);
+}
+
+.footer-list{
+    padding-bottom: 56px;
+    padding-right: 230px;
+}
+
+.logo-link-footer{
+    margin-bottom: 20px;
+    padding-top: 64px;
+    padding-right: 230px;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    color: var(--logo-text-color);    
 }
 
 .footer-text {
@@ -299,14 +338,21 @@ img{
     font-size: 14px;
     line-height: 1.71;
     color: var(--black-background-text-color);
-    font-style: normal;
+    font-style: normal;  
 
 }
+
+.footer-list:not(:last-child){
+    margin-bottom: 8px;
+}
+
+
 .footer-address {
     font-weight: 400;
-    font-size: 14;
-    line-height: 1,71;
+    font-size: 14px;
+    line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     
 }
 
@@ -326,6 +372,11 @@ img{
 
 
 /* =======================portfolio-main================================================================ */
+.project-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .visually-hidden { 
     position: absolute;
     width: 1px;
@@ -389,9 +440,8 @@ img{
 
 .our-projects-btn-list{
     display: flex;
-    justify-content: center;    
-    margin-top: 88px;
-    margin-bottom: 50px;       
+    justify-content: center;       
+    margin-bottom: 34px;       
 
 }
 .our-projects-btn-list>:not(:last-child){
@@ -411,6 +461,9 @@ img{
     flex-wrap: wrap;
     justify-content: space-between;
     
+}
+.portfolio-list-item{
+    width: 370px;
 }
 
 
