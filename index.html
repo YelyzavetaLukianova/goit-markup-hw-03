@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>homework</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,73 +21,78 @@
   <!-- =========================Header===================================== -->
   <body>
     <header class="header">
-      <div class="container header-container">
-        <nav class="menu">
-          <a href="/" class="logo-link link"
+      <d-itemiv class="container header-container">
+        <nav class="nav">
+          <a class="nav-link" href="/"
             ><span class="span-logo">Web</span>Studio</a
           >
-          <ul class="nav-list list">
-            <li class="menu-list link">
-              <a href="./index.html" class="link link-current">Студия</a>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-list-link link-current"
+                >Студия</a
+              >
             </li>
-            <li class="menu-list">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="nav-list-item">
+              <a href="./portfolio.html" class="nav-list-link">Портфолио</a>
             </li>
-            <li class="menu-list"><a href="" class="link">Контакты</a></li>
+            <li class="nav-list-item">
+              <a href="" class="nav-list-link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="contacts-list list">
+
+        <ul class="contacts">
           <li class="contacts-list">
-            <a href="mailto:info@devstudio.com" class="link contacts-menu"
+            <a class="contacts-list-item" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts-list">
-            <a href="tel:+380961111111" class="link contacts-menu"
+            <a class="contacts-list-item" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </div>
+      </d-itemiv>
     </header>
     <main>
       <!--=======================hero=========================================-->
       <section class="hero-section">
-        <div class="hero container section">
-          <h1 class="section-hero">Эффективные решения для вашего бизнеса</h1>
+        <div class="hero container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-btn">Заказать услугу</button>
         </div>
       </section>
 
-      <!--=======================peculiarities===================================-->
-      <section class="peculiarities-section">
-        <div class="peculiarities container">
+      <!--=======================features===================================-->
+      <section class="features-section section">
+        <div class="features container">
           <h2 class="visually-hidden">Наши сильные стороны</h2>
-          <ul class="section-pec list">
-            <li class="section-pec-list">
-              <h3 class="peculiarities-title">Внимание к деталям</h3>
-              <p class="section-pec-par">
+          <ul class="features-list">
+            <li class="features-list-item">
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="section-pec-list">
-              <h3 class="peculiarities-title">Пунктуальность</h3>
-              <p class="section-pec-par">
+            <li class="features-list-item">
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="section-pec-list">
-              <h3 class="peculiarities-title">Планирование</h3>
-              <p class="section-pec-par">
+            <li class="features-list-item">
+              <h3 class="features-title">Планирование</h3>
+              <p class="features-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="section-pec-list">
-              <h3 class="peculiarities-title">Современные технологии</h3>
-              <p class="section-pec-par">
+            <li class="features-list-item">
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -128,7 +133,7 @@
         </div>
       </section>
       <!--======================our-team====================================================-->
-      <section class="our-team-section">
+      <section class="our-team-section section">
         <div class="our-team-container container">
           <h2 class="our-team-title section-title">Наша команда</h2>
           <ul class="our-team-list list">
@@ -141,7 +146,7 @@
               />
               <div class="our-team-div">
                 <h3 class="section-title-list">Игорь Демьяненко</h3>
-                <p class="section-par-list">Product Designer</p>
+                <p class="our-team-text">Product Designer</p>
               </div>
             </li>
             <li class="our-team-list-item">
@@ -153,7 +158,7 @@
               />
               <div class="our-team-div">
                 <h3 class="section-title-list">Ольга Репина</h3>
-                <p class="section-par-list">Frontend Developer</p>
+                <p class="our-team-text">Frontend Developer</p>
               </div>
             </li>
             <li class="our-team-list-item">
@@ -165,7 +170,7 @@
               />
               <div class="our-team-div">
                 <h3 class="section-title-list">Николай Тарасов</h3>
-                <p class="section-par-list">Marketing</p>
+                <p class="our-team-text">Marketing</p>
               </div>
             </li>
             <li class="our-team-list-item">
@@ -177,7 +182,7 @@
               />
               <div class="our-team-div">
                 <h3 class="section-title-list">Михаил Ермаков</h3>
-                <p class="section-par-list">UI Designer</p>
+                <p class="our-team-text">UI Designer</p>
               </div>
             </li>
           </ul>
